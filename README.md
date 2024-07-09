@@ -1,0 +1,1 @@
+To reduce CPU load in threads running infinite loops without using sleep, we can use condition variables to pause the threads until they are notified to proceed. This approach allows threads to wait efficiently, avoiding busy-waiting and minimizing CPU usage.
